@@ -20,7 +20,7 @@ The module can be installed from the included SD card or from the [repository](h
 
 To install QRadar app, you need to download the zip file from this repository. The file then needs to be uploaded via the QRadar REST API using the endpoint: 
 
-**verb|POST /gui_app_framework/application_creation_task|**
+**POST /gui_app_framework/application_creation_task**
 
 To upload the file correctly, you need to send the downloaded file with the query and wait until the application is installed. If the installation fails, the previous version of QRadar must be restored. The only option left is to install the application via the [App Editor](https://exchange.xforce.ibmcloud.com/hub/extension/5d0f3f37cc5c4d16ccafe9d40d8dffe5). The application is installed in the same way as the DSM module via the extension manager. Once the application is installed and opened, a dialog box is displayed in which the option to install an existing application must be selected. 
 
